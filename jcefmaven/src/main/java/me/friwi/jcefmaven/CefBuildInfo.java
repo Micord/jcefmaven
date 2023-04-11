@@ -39,10 +39,16 @@ public class CefBuildInfo {
      */
     public static CefBuildInfo fromClasspath() throws IOException {
         if (LOCAL_BUILD_INFO == null) {
-            LOCAL_BUILD_INFO = loadData(
-                    Objects.requireNonNull(CefApp.class.getResourceAsStream("/build_meta.json"),
-                            "The build_meta.json file from the jcef-api artifact could not be read")
-            );
+            LOCAL_BUILD_INFO = new CefBuildInfo(
+                    "https://FriwiDev@bitbucket.org/FriwiDev/java-cef-linux-resizing/commits/c1f0745eac1e972615bc93fde3a71cb21c21ca57",
+                    "jcef-c1f0745+cef-108.4.13+ga98cd4c+chromium-108.0.5359.125",
+                    "https://github.com/jcefmaven/jcefbuild/releases/tag/1.0.37",
+                    "*");
+            //Необходимо добавить build_meta.json в jcef-api
+//            LOCAL_BUILD_INFO = loadData(
+//                    Objects.requireNonNull(CefApp.class.getResourceAsStream("/build_meta.json"),
+//                            "The build_meta.json file from the jcef-api artifact could not be read")
+//            );
         }
         return LOCAL_BUILD_INFO;
     }

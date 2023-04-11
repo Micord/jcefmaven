@@ -6,7 +6,7 @@
 
     <groupId>me.friwi</groupId>
     <artifactId>jcefmaven</artifactId>
-    <version>108.4.13</version>
+    <version>108.4.13-8464-SNAPSHOT</version>
 
     <packaging>jar</packaging>
     <name>JCef Maven</name>
@@ -47,9 +47,9 @@
 
     <dependencies>
         <dependency>
-            <groupId>me.friwi</groupId>
+            <groupId>org.cef</groupId>
             <artifactId>jcef-api</artifactId>
-            <version>jcef-c1f0745+cef-108.4.13+ga98cd4c+chromium-108.0.5359.125</version>
+            <version>108.4.13-micord.1-8464-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>org.apache.commons</groupId>
