@@ -31,6 +31,18 @@
             </roles>
         </developer>
     </developers>
+    <distributionManagement>
+        <repository>
+            <id>mikord</id>
+            <name>ASD CG Release repository</name>
+            <url>http://repo.micord.ru/repository/libs-releases-local</url>
+        </repository>
+        <snapshotRepository>
+            <id>mikord</id>
+            <name>ASD CG Snapshots repository</name>
+            <url>http://repo.micord.ru/repository/libs-snapshots-local</url>
+        </snapshotRepository>
+    </distributionManagement>
 
     <scm>
         <connection>scm:git:https://github.com/jcefmaven/jcefmaven</connection>
@@ -50,6 +62,16 @@
             <groupId>org.cef</groupId>
             <artifactId>jcef-api</artifactId>
             <version>108.4.13-micord.1-8464-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>me.friwi</groupId>
+            <artifactId>jcef-natives-linux-amd64</artifactId>
+            <version>jcef-87476e9+cef-110.0.25+g75b1c96+chromium-110.0.5481.78</version>
+        </dependency>
+        <dependency>
+            <groupId>me.friwi</groupId>
+            <artifactId>jcef-natives-windows-amd64</artifactId>
+            <version>jcef-87476e9+cef-110.0.25+g75b1c96+chromium-110.0.5481.78</version>
         </dependency>
         <dependency>
             <groupId>org.apache.commons</groupId>
