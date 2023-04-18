@@ -65,6 +65,11 @@
         </dependency>
         <dependency>
             <groupId>me.friwi</groupId>
+            <artifactId>jcef-natives-macosx-amd64</artifactId>
+            <version>jcef-87476e9+cef-110.0.25+g75b1c96+chromium-110.0.5481.78</version>
+        </dependency>
+        <dependency>
+            <groupId>me.friwi</groupId>
             <artifactId>jcef-natives-linux-amd64</artifactId>
             <version>jcef-c1f0745+cef-108.4.13+ga98cd4c+chromium-108.0.5359.125</version>
         </dependency>
