@@ -33,14 +33,14 @@
     </developers>
     <distributionManagement>
         <repository>
-            <id>mikord</id>
+            <id>micord</id>
             <name>ASD CG Release repository</name>
-            <url>http://repo.micord.ru/repository/libs-releases-local</url>
+            <url>https://repo.micord.ru/repository/libs-releases-local</url>
         </repository>
         <snapshotRepository>
-            <id>mikord</id>
+            <id>micord</id>
             <name>ASD CG Snapshots repository</name>
-            <url>http://repo.micord.ru/repository/libs-snapshots-local</url>
+            <url>https://repo.micord.ru/repository/libs-snapshots-local</url>
         </snapshotRepository>
     </distributionManagement>
 
@@ -59,14 +59,14 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.cef</groupId>
+            <groupId>me.friwi</groupId>
             <artifactId>jcef-api</artifactId>
-            <version>108.4.13-micord.1-8464-SNAPSHOT</version>
+            <version>jcef-c1f0745+cef-108.4.13+ga98cd4c+chromium-108.0.5359.125</version>
         </dependency>
         <dependency>
             <groupId>me.friwi</groupId>
             <artifactId>jcef-natives-macosx-amd64</artifactId>
-            <version>jcef-87476e9+cef-110.0.25+g75b1c96+chromium-110.0.5481.78</version>
+            <version>jcef-c1f0745+cef-108.4.13+ga98cd4c+chromium-108.0.5359.125</version>
         </dependency>
         <dependency>
             <groupId>me.friwi</groupId>
@@ -74,9 +74,9 @@
             <version>jcef-c1f0745+cef-108.4.13+ga98cd4c+chromium-108.0.5359.125</version>
         </dependency>
         <dependency>
-            <groupId>org.cef</groupId>
-            <artifactId>jcef-bin-windows-amd64</artifactId>
-            <version>108.4.13-micord.1-8464-SNAPSHOT</version>
+            <groupId>me.friwi</groupId>
+            <artifactId>jcef-natives-windows-amd64</artifactId>
+            <version>jcef-c1f0745+cef-108.4.13+ga98cd4c+chromium-108.0.5359.125</version>
         </dependency>
         <dependency>
             <groupId>org.apache.commons</groupId>
