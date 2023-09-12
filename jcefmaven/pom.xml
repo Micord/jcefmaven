@@ -6,7 +6,7 @@
 
     <groupId>me.friwi</groupId>
     <artifactId>jcefmaven</artifactId>
-    <version>108.4.13-8464-SNAPSHOT</version>
+    <version>108.4.13-micord.1</version>
 
     <packaging>jar</packaging>
     <name>JCef Maven</name>
